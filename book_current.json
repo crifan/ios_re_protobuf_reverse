@@ -1,6 +1,6 @@
 {
   "title": "iOS逆向YouTube：protobuf逆向",
-  "description": "整理iOS逆向YouTube期间涉及到的Protobuf的逆向。先是概览；再是Protobuf的正向相关知识；然后是Protobuf逆向内容，包括普通的iOS的类、lite精简版的C++的类、YouTube中Protobuf的内容；其中，普通的iOS的类有GPBMessage、GPBDescriptor、GPBFieldDescriptor；lite精简版C++的类有MessageLite；YouTube中的普通的iOS类的Protobuf类有：YTIPlayerRequest、YTIAdBreakRequest、YTIInnerTubeContext，YTIClientInfo，以及lite的C++类有OnesieRequestProto；",
+  "description": "整理iOS逆向YouTube期间涉及到的Protobuf的逆向。先是概览；再是Protobuf的正向相关知识；然后是Protobuf逆向内容，包括普通的iOS的类、lite精简版的C++的类、YouTube中Protobuf的内容；其中，普通的iOS的类有GPBMessage、GPBDescriptor、GPBFieldDescriptor；lite精简版C++的类有MessageLite及其定义；YouTube中的普通的iOS类的Protobuf类有：YTIPlayerRequest、YTIAdBreakRequest、YTIInnerTubeContext，YTIClientInfo、YTIOnesieHotConfig，以及lite的C++类有OnesieRequestProto；",
   "pluginsConfig": {
     "github-buttons": {
       "buttons": [

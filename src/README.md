@@ -1,11 +1,11 @@
 # iOS逆向YouTube：protobuf逆向
 
-* 最新版本：`v0.7`
-* 更新时间：`20221104`
+* 最新版本：`v0.9`
+* 更新时间：`20221110`
 
 ## 简介
 
-整理iOS逆向YouTube期间涉及到的Protobuf的逆向。先是概览；再是Protobuf的正向相关知识；然后是Protobuf逆向内容，包括普通的iOS的类、lite精简版的C++的类、YouTube中Protobuf的内容；其中，普通的iOS的类有GPBMessage、GPBDescriptor、GPBFieldDescriptor；lite精简版C++的类有MessageLite；YouTube中的普通的iOS类的Protobuf类有：YTIPlayerRequest、YTIAdBreakRequest、YTIInnerTubeContext，YTIClientInfo，以及lite的C++类有OnesieRequestProto；
+整理iOS逆向YouTube期间涉及到的Protobuf的逆向。先是概览；再是Protobuf的正向相关知识；然后是Protobuf逆向内容，包括普通的iOS的类、lite精简版的C++的类、YouTube中Protobuf的内容；其中，普通的iOS的类有GPBMessage、GPBDescriptor、GPBFieldDescriptor；lite精简版C++的类有MessageLite及其定义；YouTube中的普通的iOS类的Protobuf类有：YTIPlayerRequest、YTIAdBreakRequest、YTIInnerTubeContext，YTIClientInfo、YTIOnesieHotConfig，以及lite的C++类有OnesieRequestProto；
 
 ## 源码+浏览+下载
 
@@ -21,8 +21,8 @@
 
 ### 在线浏览
 
-* [iOS逆向YouTube：protobuf逆向 book.crifan.org](https://book.crifan.org/books/ios_re_protobuf_reverse/website)
-* [iOS逆向YouTube：protobuf逆向 crifan.github.io](https://crifan.github.io/ios_re_protobuf_reverse/website)
+* [iOS逆向YouTube：protobuf逆向 book.crifan.org](https://book.crifan.org/books/ios_re_protobuf_reverse/website/)
+* [iOS逆向YouTube：protobuf逆向 crifan.github.io](https://crifan.github.io/ios_re_protobuf_reverse/website/)
 
 ### 离线下载阅读
 
@@ -40,8 +40,16 @@
 
 感谢我的老婆**陈雪**的包容理解和悉心照料，才使得我`crifan`有更多精力去专注技术专研和整理归纳出这些电子书和技术教程，特此鸣谢。
 
-## 更多其他电子书
+## 其他
+
+### 作者的其他电子书
 
 本人`crifan`还写了其他`150+`本电子书教程，感兴趣可移步至：
 
 [crifan/crifan_ebook_readme: Crifan的电子书的使用说明](https://github.com/crifan/crifan_ebook_readme)
+
+### 关于作者
+
+关于作者更多介绍，详见：
+
+[关于CrifanLi李茂 – 在路上](https://www.crifan.org/about/)
