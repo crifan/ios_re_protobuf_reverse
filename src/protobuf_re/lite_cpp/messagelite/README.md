@@ -1,11 +1,5 @@
 # MessageLite
 
-TODO：
-
-* 【整理】Protobuf中的MessageLite
-
----
-
 ## 背景
 
 之前在逆向`YouTube`期间遇到过：

@@ -1,5 +1,6 @@
 # 参考资料
 
+* 【整理】Protobuf中的MessageLite
 * 【整理】Protocol Buffers即protobuf总结
 * 【未解决】研究YouTube逻辑：OnesieRequestProto类的具体vtable函数实现
 * 【已解决】研究YouTube逻辑：从NSData直接解析出protobuf的类YTIAdBreakRequest
